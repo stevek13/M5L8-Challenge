@@ -11,6 +11,7 @@
 		2016499A281DB08800E3D7C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20164999281DB08800E3D7C8 /* ContentView.swift */; };
 		2016499C281DB08A00E3D7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016499B281DB08A00E3D7C8 /* Assets.xcassets */; };
 		2016499F281DB08A00E3D7C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016499E281DB08A00E3D7C8 /* Preview Assets.xcassets */; };
+		201649A6281DB3B200E3D7C8 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201649A5281DB3B200E3D7C8 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		20164999281DB08800E3D7C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2016499B281DB08A00E3D7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2016499E281DB08A00E3D7C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		201649A5281DB3B200E3D7C8 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				20164997281DB08800E3D7C8 /* M5L8_ChallengeApp.swift */,
 				20164999281DB08800E3D7C8 /* ContentView.swift */,
+				201649A5281DB3B200E3D7C8 /* SecondView.swift */,
 				2016499B281DB08A00E3D7C8 /* Assets.xcassets */,
 				2016499D281DB08A00E3D7C8 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201649A6281DB3B200E3D7C8 /* SecondView.swift in Sources */,
 				2016499A281DB08800E3D7C8 /* ContentView.swift in Sources */,
 				20164998281DB08800E3D7C8 /* M5L8_ChallengeApp.swift in Sources */,
 			);
