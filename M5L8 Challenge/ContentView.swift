@@ -17,11 +17,7 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            
-            
             VStack{
-                //        NavigationView{
-                
                 Picker("Picker", selection: $number) {
                     ForEach(1...10, id:\.self) { number in
                         Text("\(number)")
@@ -36,9 +32,7 @@ struct ContentView: View {
                 }
                 Spacer()
             }
-            
         }
-        
     }
 }
 

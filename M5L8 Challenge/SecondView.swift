@@ -11,16 +11,21 @@ struct SecondView: View {
     
     
     @Binding var number:Int
-    
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+
     var body: some View {
-        Text("I am view \(number)")
+        Spacer()
+        Text("I am view \(number)\n")
+        
         Button {
+            self.mode.wrappedValue.dismiss()
             
         } label: {
             Text("Go back!")
         }
-
-
+        Spacer()
+        .navigationBarBackButtonHidden(true)
+        
     }
 }
 
